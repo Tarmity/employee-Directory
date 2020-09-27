@@ -8,6 +8,6 @@ function Header() {
         <p>Click on contacts to filter by heading or use the search box to narrow your results</p>
     </header>
     );
-}
+};
 
 export default Header;
