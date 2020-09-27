@@ -1,10 +1,14 @@
 import React from "react";
 import './Search.css';
 
-function Search () {
+const Search = () => {
     return (
-        <div className = "container">
-        <input className="search" type="search" placeholder="Search.." aria-label="Search"></input>
+        <div className="container">
+            <input
+                className="search"
+                type="" 
+                placeholder="Search.." 
+                />
         </div>
 
     )
