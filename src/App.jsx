@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "./components/Header"
-import RedStripe from './components/RedStripe';
-import Search from './components/Search';
+import Header from "./components/Header/Header"
+import RedStripe from './components/RedStripe/RedStripe';
+import Search from './components/Search/Search';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/RedStripe.css";
+import "./RedStripe.css";
 
 function RedStripe() {
     return(
