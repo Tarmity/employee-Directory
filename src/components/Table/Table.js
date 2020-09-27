@@ -2,12 +2,13 @@ import React from "react";
 import "./Table.css";
 
 
-function Table() {
+function Table(props) {
     return (
         <div className="container">
             <table className="table">
                 <thead>
                     <tr>
+                        <th>id</th>
                         <th>image</th>
                         <th>Name</th>
                         <th>Phone</th>
@@ -17,11 +18,12 @@ function Table() {
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
+                        <th scope="row">id</th>
+                        <td>Image</td>
+                        <td>Name</td>
+                        <td>Phone</td>
+                        <td>email</td>
+                        <td>DOB</td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
