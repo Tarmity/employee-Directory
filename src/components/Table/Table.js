@@ -1,14 +1,17 @@
 import React from "react";
 import "./Table.css";
+import employees from "../../utils/employees.json";
 
 
-function Table(props) {
+const Table = (props) => {
+
+
     return (
         <div className="container">
             <table className="table">
                 <thead>
                     <tr>
-                        <th>id</th>
+                        {/* <th>id</th> */}
                         <th>image</th>
                         <th>Name</th>
                         <th>Phone</th>
@@ -17,28 +20,18 @@ function Table(props) {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">id</th>
-                        <td>Image</td>
-                        <td>Name</td>
-                        <td>Phone</td>
-                        <td>email</td>
-                        <td>DOB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>@twitter</td>
-                    </tr>
+                    {employees.map(employee => {
+                        return (
+                            <tr key={employee.id}>
+                                {/* <th scope="row">{employee.id}</th> */}
+                                <td><img alt={employees.name} src={employee.image} /></td>
+                                <td> {employee.name} </td>
+                                <td> {employee.phone} </td>
+                                <td> {employee.email} </td>
+                                <td> {employee.DOB} </td>
+                            </tr>
+                        )
+                    })}
                 </tbody>
             </table>
         </div>

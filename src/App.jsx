@@ -11,6 +11,9 @@ function App() {
     <RedStripe />
     <Search />
     <Table />
+
+    
+
     </div>
   );
 }
