@@ -1,15 +1,17 @@
 import React from "react";
 import './Search.css';
+import { Form, Button, FormControl } from 'react-bootstrap';
 
 const Search = () => {
     return (
-        <div className="container">
-            <input
+        <Form inline className="containers">
+            <FormControl
                 className="search"
-                type="" 
-                placeholder="Search.." 
+                type="text" 
+                placeholder="Search.."
                 />
-        </div>
+                <Button type="button" className="btn btn-secondary">Submit</Button>               
+        </Form>
 
     )
 }
