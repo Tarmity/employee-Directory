@@ -6,7 +6,7 @@ import Table from './components/Table/Table';
 import Employees from './utils/employees.json';
 
 
-function App() {
+function App () {
 
  const [employees] = React.useState(Employees);
  const [searchTerm, setSearchTerm] = React.useState('');

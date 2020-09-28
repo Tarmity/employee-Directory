@@ -10,9 +10,9 @@ const Search = (props) => {
                 type="text" 
                 placeholder="Search.."
                 value= {props.search}
-                onChange= {props.handleInputChange}
-                 name= "term"
-                 id="term"
+                onChange= {props.onSearch}
+                name= "term"
+                id="term"
                 />
                 {/* <Button type="button" className="btn btn-secondary">Submit</Button>                */}
         </Form>

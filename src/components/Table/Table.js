@@ -20,7 +20,7 @@ const Table = (props) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {employees.map(employee => {
+                    {props.employees.map(employee => {
                         return (
                             <tr key={employee.id}>
                                 {/* <th scope="row">{employee.id}</th> */}
