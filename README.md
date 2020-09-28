@@ -1,5 +1,5 @@
 # Employee Directory
-![License](https://img.shields.io/github/license/tarmity/employee-directory)
+![License](https://github.com/Tarmity/employee-directory/blob/master/LICENSE)
 
 ## Description
   * This repository is where I developed the Employee Directory. Not only do I work on code and issues here. I also publish the latest updates and functions. This source code is avaialable to everyone under the Free Software Foundation, Inc. http//fsf.org/.
