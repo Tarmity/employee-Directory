@@ -3,9 +3,9 @@ import "./Table.css";
 import employees from "../../utils/employees.json";
 
 
-const Table = (props) => {
+const Table = props => {
 
-
+    
     return (
         <div className="container">
             <table className="table">
